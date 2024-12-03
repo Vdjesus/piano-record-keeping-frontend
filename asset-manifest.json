@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/piano-record-keeping-frontend/static/css/main.033ce10a.css",
-    "main.js": "/piano-record-keeping-frontend/static/js/main.b1a68b70.js",
+    "main.css": "/piano-record-keeping-frontend/static/css/main.e6c13ad2.css",
+    "main.js": "/piano-record-keeping-frontend/static/js/main.56bb3593.js",
     "static/js/453.8cfa0094.chunk.js": "/piano-record-keeping-frontend/static/js/453.8cfa0094.chunk.js",
     "index.html": "/piano-record-keeping-frontend/index.html",
-    "main.033ce10a.css.map": "/piano-record-keeping-frontend/static/css/main.033ce10a.css.map",
-    "main.b1a68b70.js.map": "/piano-record-keeping-frontend/static/js/main.b1a68b70.js.map",
+    "main.e6c13ad2.css.map": "/piano-record-keeping-frontend/static/css/main.e6c13ad2.css.map",
+    "main.56bb3593.js.map": "/piano-record-keeping-frontend/static/js/main.56bb3593.js.map",
     "453.8cfa0094.chunk.js.map": "/piano-record-keeping-frontend/static/js/453.8cfa0094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.033ce10a.css",
-    "static/js/main.b1a68b70.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.56bb3593.js"
   ]
 }
