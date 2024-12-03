@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Box, TextField, Button, Typography } from '@mui/material';
-
 const RecordForm = ({ onAddRecord }) => {
   const [studentName, setStudentName] = useState('');
   const [gradePercentage, setGradePercentage] = useState('');
@@ -85,5 +84,4 @@ const RecordForm = ({ onAddRecord }) => {
     </Box>
   );
 };
-
 export default RecordForm;
