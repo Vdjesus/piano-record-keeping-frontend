@@ -24,7 +24,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import axios from 'axios';
 
 function App() {
-  const [records, setRecords] = useState([]); // Removed localStorage initialization
+  const [records, setRecords] = useState([]);
   const [newRecord, setNewRecord] = useState({
     title: '',
     percentage: '',
@@ -40,11 +40,10 @@ function App() {
 
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-  // Fetch records from serverless function
   useEffect(() => {
     const fetchRecords = async () => {
       try {
-        const response = await axios.get('/api/records'); // Fetch from Vercel API
+        const response = await axios.get('/api/records'); 
         setRecords(response.data);
       } catch (error) {
         console.error('Error fetching records:', error);
@@ -54,7 +53,6 @@ function App() {
     fetchRecords();
   }, []);
 
-  // Update letter grade based on percentage
   useEffect(() => {
     if (newRecord.percentage) {
       const percent = parseInt(newRecord.percentage, 10);
@@ -74,7 +72,7 @@ function App() {
     setNewRecord((prev) => ({ ...prev, [field]: value }));
   };
 
-  // Add a new record via serverless function
+
   const handleAddRecord = async () => {
     if (newRecord.title && newRecord.percentage && newRecord.day) {
       try {
